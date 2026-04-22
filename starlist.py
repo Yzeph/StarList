@@ -1,5 +1,6 @@
 import os
 import click
+from datetime import datetime
 from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
 from dotenv import load_dotenv
@@ -87,7 +88,16 @@ def generate_markdown(stars, groupby='language'):
         else:
             grouped.setdefault(key, []).append(repo)
             
-    content = "# My GitHub Stars\n\n"
+    content = f"""---
+title: "星标项目"
+date: {datetime.now().strftime('%Y-%m-%d')}
+layout: "single"
+showtoc: true
+---
+
+# My GitHub Stars
+
+"""
     content += f"Total stars: {len(stars)}\n\n"
     
     # Table of Contents
