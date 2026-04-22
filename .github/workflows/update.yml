@@ -1,0 +1,63 @@
+name: Update Star List
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天凌晨自动运行
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate Star List
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: |
+          # 运行脚本生成 README.md
+          python starlist.py --groupby language --output README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "docs: update starred repositories [skip ci]" || echo "No changes to commit"
+          git push
+
+      - name: Sync to Blog Repository
+        env:
+          BLOG_TOKEN: ${{ secrets.BLOG_SYNC_TOKEN }}
+        run: |
+          if [ -z "$BLOG_TOKEN" ]; then
+            echo "SKIPPING: BLOG_SYNC_TOKEN not found. See USAGE.md for setup."
+            exit 0
+          fi
+          
+          # 克隆博客仓库
+          git clone https://x-access-token:${BLOG_TOKEN}@github.com/Yzeph/Yzeph.github.io.git blog-repo
+          
+          # 复制生成的 README.md 到博客指定目录（如 source/_posts/stars.md）
+          # 如果你的博客结构不同，请根据需要修改下面的路径
+          mkdir -p blog-repo/content/ # 假设存放路径，您可以根据实际博客框架调整
+          cp README.md blog-repo/content/stars.md
+          
+          cd blog-repo
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add content/stars.md
+          git commit -m "feat: sync github stars from StarList" || echo "No changes"
+          git push
