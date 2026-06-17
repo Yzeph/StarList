@@ -106,16 +106,9 @@ showtoc: true
 
 """
     content += f"Total stars: {len(stars)}\n\n"
-    
-    # Table of Contents
-    content += "## Table of Contents\n\n"
-    sorted_keys = sorted(grouped.keys(), reverse=(groupby == 'starred_at'))
-    for key in sorted_keys:
-        anchor = key.lower().replace(' ', '-').replace('.', '')
-        content += f"- [{key}](#{anchor})\n"
-    content += "\n"
 
     # Sections
+    sorted_keys = sorted(grouped.keys(), reverse=(groupby == 'starred_at'))
     for key in sorted_keys:
         section_title = key
         if groupby == 'starred_at':
