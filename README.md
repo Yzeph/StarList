@@ -9,35 +9,6 @@ showtoc: true
 
 Total stars: 200
 
-## Table of Contents
-
-- [2026-06](#2026-06)
-- [2026-05](#2026-05)
-- [2026-04](#2026-04)
-- [2026-03](#2026-03)
-- [2026-02](#2026-02)
-- [2026-01](#2026-01)
-- [2025-12](#2025-12)
-- [2025-11](#2025-11)
-- [2025-10](#2025-10)
-- [2025-09](#2025-09)
-- [2025-08](#2025-08)
-- [2025-07](#2025-07)
-- [2025-06](#2025-06)
-- [2025-05](#2025-05)
-- [2025-04](#2025-04)
-- [2025-03](#2025-03)
-- [2025-02](#2025-02)
-- [2025-01](#2025-01)
-- [2024-12](#2024-12)
-- [2024-11](#2024-11)
-- [2024-10](#2024-10)
-- [2024-09](#2024-09)
-- [2024-08](#2024-08)
-- [2024-07](#2024-07)
-- [2023-01](#2023-01)
-- [2022-10](#2022-10)
-
 ## 2026年06月
 
 - [Ukenn2112/Ukenn-index](https://github.com/Ukenn2112/Ukenn-index) - 维安雨轩 の 后花园 (★17)
@@ -45,7 +16,7 @@ Total stars: 200
 - [subframe7536/maple-font](https://github.com/subframe7536/maple-font) - Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项 (★26602)
 - [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) - An unprofessional open-source Chinese font derived from Fontworks' Klee One. 一款非专业的开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。   (★24729)
 - [githubnext/monaspace](https://github.com/githubnext/monaspace) - An innovative superfamily of fonts for code (★19338)
-- [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. (★27678)
+- [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. (★27694)
 - [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) - An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服 (★19400)
 - [plainhub/plain-app](https://github.com/plainhub/plain-app) - 🔥 PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, contacts, SMS, calls, and more through a simple, easy-to-use interface on your desktop. (★5663)
 - [originalankur/maptoposter](https://github.com/originalankur/maptoposter) - Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code. (★13586)
@@ -53,7 +24,7 @@ Total stars: 200
 - [queensferryme/hugo-theme-texify](https://github.com/queensferryme/hugo-theme-texify) - A minimal, latex-style hugo theme for personal blogging (★149)
 - [OpenWebGAL/WebGAL](https://github.com/OpenWebGAL/WebGAL) - A brand new web Visual Novel engine | 全新的网页端视觉小说引擎 (★3848)
 - [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development. (★145584)
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader (★171082)
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader (★171083)
 
 ## 2026年05月
 
@@ -65,14 +36,14 @@ Total stars: 200
 - [Youthdreamer/nixos-config](https://github.com/Youthdreamer/nixos-config) - No description (★30)
 - [star-history/star-history](https://github.com/star-history/star-history) - The de facto GitHub star history graph. (★9180)
 - [element-plus/element-plus](https://github.com/element-plus/element-plus) - 🎉 A Vue.js 3 UI Library made by Element team (★27532)
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io (★103053)
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io (★103055)
 - [su-kaka/gcli2api](https://github.com/su-kaka/gcli2api) - 将 GeminiCLI 和 Antigravity 转换为 OpenAI 、GEMINI 和 Claude API 接口 (★4896)
 - [MashiroSaber03/Saber-Translator](https://github.com/MashiroSaber03/Saber-Translator) - ✨ 一款小白也能轻松使用的漫画翻译工具，旨在帮助漫画爱好者轻松跨越语言障碍，畅享原汁原味的日文漫画。  利用先进的 AI 技术，智能检测漫画中的对话气泡，精准识别日文文本，并快速翻译成流畅自然的中文。  ✨ 无论是图片还是 PDF 格式的漫画，Saber-Translator 都能轻松应对，让你无压力阅读心爱的漫画作品。 (★3299)
 
 ## 2026年04月
 
 - [cmliu/edgetunnel](https://github.com/cmliu/edgetunnel) - edgetunnel2 VLESS/Trojan/SS 多功能面板 (★38182)
-- [AmintaCCCP/GithubStarsManager](https://github.com/AmintaCCCP/GithubStarsManager) - An app for managing github starred repositories.  (★3066)
+- [AmintaCCCP/GithubStarsManager](https://github.com/AmintaCCCP/GithubStarsManager) - An app for managing github starred repositories.  (★3067)
 - [hpjansson/chafa](https://github.com/hpjansson/chafa) - 📺🗿 Terminal graphics for the 21st century. (★4928)
 - [cmatsuoka/figlet](https://github.com/cmatsuoka/figlet) - Claudio's FIGlet tree (★1634)
 - [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow) - Paste any GitHub URL → interactive architecture map. See how files connect, find what breaks if you change something. No install, no accounts — runs entirely in your browser. (★3522)
@@ -100,7 +71,7 @@ Total stars: 200
 - [HarukaMa/HarukaMa](https://github.com/HarukaMa/HarukaMa) - No description (★6)
 - [wit-l/wit-l.github.io](https://github.com/wit-l/wit-l.github.io) - blog (★1)
 - [wit-l/NeovimStarter](https://github.com/wit-l/NeovimStarter) - my neovim config files (★5)
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience (★126190)
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience (★126191)
 - [zs1083339604/FaceWinUnlock-Tauri](https://github.com/zs1083339604/FaceWinUnlock-Tauri) - 一款基于 Tauri 框架开发的现代化 Windows 面容识别解锁增强软件。它通过自定义 Credential Provider (DLL) 注入 Windows 登录界面，结合前端 Vue 3 和后端 OpenCV 人脸识别算法，为用户提供类似 Windows Hello 的解锁体验。 (★1797)
 
 ## 2026年02月
@@ -124,7 +95,7 @@ Total stars: 200
 - [EasyLive2D/live2d-py](https://github.com/EasyLive2D/live2d-py) - Live2D Library for Python (C++ impl): Supports model loading, lip-sync, basic face rigging, and precise click test. (★545)
 - [zerebos/ghostty-config](https://github.com/zerebos/ghostty-config) - A beautiful config generator for Ghostty terminal. (★3841)
 - [hect0x7/JMComic-Crawler-Python](https://github.com/hect0x7/JMComic-Crawler-Python) - Python API for JMComic | 提供Python API访问禁漫天堂，同时支持网页端和移动端 | 禁漫天堂GitHub Actions下载器🚀 (★6230)
-- [hect0x7/JMComic-APK](https://github.com/hect0x7/JMComic-APK) - 防迷路 | 禁漫天堂APK | 禁漫APP安卓安装包 | jm天堂 | 回家 | GitHub Actions | JMComic3 | JMComic2 (★5246)
+- [hect0x7/JMComic-APK](https://github.com/hect0x7/JMComic-APK) - 防迷路 | 禁漫天堂APK | 禁漫APP安卓安装包 | jm天堂 | 回家 | GitHub Actions | JMComic3 | JMComic2 (★5248)
 - [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) - 🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI. (★24286)
 - [opq-osc/OPQ](https://github.com/opq-osc/OPQ) - OPQ RST UVW XYZ (★444)
 - [frankion10093/yui_agent](https://github.com/frankion10093/yui_agent) - No description (★1)
@@ -137,7 +108,7 @@ Total stars: 200
 - [SilentSys/SLAM](https://github.com/SilentSys/SLAM) - Source Live Audio Mixer (★391)
 - [catppuccin/catppuccin](https://github.com/catppuccin/catppuccin) - 😸 Soothing pastel theme for the high-spirited! (★19337)
 - [YuniqueUnic/animated-sign-4u](https://github.com/YuniqueUnic/animated-sign-4u) - Animated Sign 4u is a small Next.js app and HTTP API for generating animated signature SVGs and static PNG/GIF images.  You can:  Type a name/signature and pick a script/brand fontAnimated Sign ZH  Apply themes (backgrounds, textures, glow/shadow)  Use per-character colors or gradients  Enable Hanzi stroke-by-stroke animation  (★45)
-- [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻 (★25845)
+- [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻 (★25846)
 - [rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX) - RyTuneX is a cutting-edge optimizer built with the WinUI 3 framework, designed to amplify the performance of Windows devices. Crafted for both Windows 10 and 11. (★5114)
 - [tw93/Mole](https://github.com/tw93/Mole) - 🐹 Clean, uninstall, analyze, optimize, and monitor your Mac from the terminal. (★56190)
 - [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) - ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。 (★59548)
@@ -186,7 +157,7 @@ Total stars: 200
 
 - [bestony/logoly](https://github.com/bestony/logoly) - A Pornhub Flavour Logo Generator (★7934)
 - [Yzeph/MarkWord](https://github.com/Yzeph/MarkWord) - Markdown to Word converter with syntax highlighting and cross-platform support (★5)
-- [microsoft/markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown. (★154880)
+- [microsoft/markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown. (★154881)
 - [vuejs/vitepress](https://github.com/vuejs/vitepress) - Vite & Vue powered static site generator. (★17881)
 - [NapNeko/NapCatQQ](https://github.com/NapNeko/NapCatQQ) - Modern protocol-side framework based on NTQQ (★9512)
 - [IRVING-L/Algorithm_fromBilibili](https://github.com/IRVING-L/Algorithm_fromBilibili) - 《B站-青岛大学-王卓老师-数据结构与算法基础》自学心得、笔记（C++语言实现） (★1218)
@@ -197,7 +168,7 @@ Total stars: 200
 - [Genshin-bots/gsuid_core](https://github.com/Genshin-bots/gsuid_core) - 💖一套业务逻辑，多个平台支持！异步核心框架GsCore，为插件编写提供完善平台支持、核心数据库统一、复用游戏查询逻辑、网页控制台，支持Bot列表: NoneBot2 & HoshinoBot & ZeroBot & YunZaiBot & Koishi (★328)
 - [koishijs/koishi](https://github.com/koishijs/koishi) - Cross-platform chatbot framework made with love (★5599)
 - [ayangweb/BongoCat](https://github.com/ayangweb/BongoCat) - 🐱 跨平台互动桌宠 BongoCat，为桌面增添乐趣！ (★21435)
-- [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) - 🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！ (★37849)
+- [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) - 🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！ (★37850)
 - [jerryc127/hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly) -  🦋 A Hexo Theme: Butterfly (★8316)
 - [xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump) - 删库 (★9714)
 - [zwStar/meituan-backend](https://github.com/zwStar/meituan-backend) - 模仿美团外卖后端 (★317)
@@ -270,7 +241,7 @@ Total stars: 200
 - [openxlings/xlings](https://github.com/openxlings/xlings) - Universal package infrastructure with OS-like SubOS isolation - Multi-version · Rootless · Decentralized Index · Agent-ready. (★585)
 - [inferjay/AndroidDevTools](https://github.com/inferjay/AndroidDevTools) - 收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。 (★8047)
 - [caofangkuai/The-Wandering-Earth-550W](https://github.com/caofangkuai/The-Wandering-Earth-550W) - 流浪地球550W量子计算机 -- The Wandering Earth 550W (★7)
-- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub. (★161686)
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub. (★161688)
 - [AnyListen/tools-ocr](https://github.com/AnyListen/tools-ocr) - 树洞 OCR 文字识别（一款跨平台的 OCR 小工具） (★3066)
 - [peng-zhihui/L-ink_Card](https://github.com/peng-zhihui/L-ink_Card) - Smart NFC & ink-Display Card (★7620)
 
@@ -309,7 +280,7 @@ Total stars: 200
 ## 2023年01月
 
 - [BartoszCichecki/LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit) - Lightweight Lenovo Vantage and Hotkeys replacement for Lenovo Legion laptops. (★7519)
-- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。 (★49662)
+- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。 (★49663)
 - [std-microblock/chromatic](https://github.com/std-microblock/chromatic) - Universal modifier for Chromium/V8 | 广谱注入 Chromium/V8 的通用修改器 (★8312)
 
 ## 2022年10月
