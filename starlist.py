@@ -17,6 +17,7 @@ query($username: String!, $after: String) {
         hasNextPage
       }
       edges {
+        starredAt
         node {
           nameWithOwner
           description
@@ -66,7 +67,8 @@ def get_all_stars(username, token):
                 'url': node['url'],
                 'stars': node['stargazerCount'],
                 'language': node['primaryLanguage']['name'] if node['primaryLanguage'] else 'Others',
-                'topics': [t['topic']['name'] for t in node['repositoryTopics']['nodes']]
+                'topics': [t['topic']['name'] for t in node['repositoryTopics']['nodes']],
+                'starred_at': edge['starredAt'],
             }
             stars.append(repo)
         
@@ -79,13 +81,18 @@ def get_all_stars(username, token):
 def generate_markdown(stars, groupby='language'):
     grouped = {}
     for repo in stars:
-        key = repo.get(groupby, 'Others')
-        if groupby == 'topics':
+        if groupby == 'starred_at':
+            # Group by year-month
+            key = repo['starred_at'][:7]
+            grouped.setdefault(key, []).append(repo)
+        elif groupby == 'topics':
             # If grouping by topics, a repo might appear in multiple sections
+            key = repo.get(groupby, 'Others')
             keys = repo['topics'] if repo['topics'] else ['No Topic']
             for k in keys:
                 grouped.setdefault(k, []).append(repo)
         else:
+            key = repo.get(groupby, 'Others')
             grouped.setdefault(key, []).append(repo)
             
     content = f"""---
@@ -102,15 +109,20 @@ showtoc: true
     
     # Table of Contents
     content += "## Table of Contents\n\n"
-    sorted_keys = sorted(grouped.keys())
+    sorted_keys = sorted(grouped.keys(), reverse=(groupby == 'starred_at'))
     for key in sorted_keys:
         anchor = key.lower().replace(' ', '-').replace('.', '')
         content += f"- [{key}](#{anchor})\n"
     content += "\n"
-    
+
     # Sections
     for key in sorted_keys:
-        content += f"## {key}\n\n"
+        section_title = key
+        if groupby == 'starred_at':
+            section_title = f"{key[:4]}年{key[5:]}月"
+        content += f"## {section_title}\n\n"
+        # Sort repos within each group by starred time (newest first)
+        grouped[key].sort(key=lambda r: r['starred_at'], reverse=True)
         for repo in grouped[key]:
             description = repo['description'] if repo['description'] else "No description"
             content += f"- [{repo['name']}]({repo['url']}) - {description} (★{repo['stars']})\n"
@@ -122,7 +134,7 @@ showtoc: true
 @click.option('--username', default=lambda: os.environ.get('GITHUB_USERNAME'), help='GitHub username')
 @click.option('--token', default=lambda: os.environ.get('GITHUB_TOKEN'), help='GitHub token')
 @click.option('--output', default='README.md', help='Output file name')
-@click.option('--groupby', type=click.Choice(['language', 'topics']), default='language', help='Group by language or topics')
+@click.option('--groupby', type=click.Choice(['language', 'topics', 'starred_at']), default='language', help='Group by language, topics, or star time')
 def main(username, token, output, groupby):
     if not username or not token:
         click.echo("Error: GITHUB_USERNAME and GITHUB_TOKEN must be provided (via args or .env)")
